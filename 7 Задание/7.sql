@@ -1,0 +1,10 @@
+SELECT 
+    ID,
+    SURNAME,
+    DEPARTMENT_ID,
+    SALARY
+FROM 
+    Users
+WHERE 
+    SURNAME LIKE 'А%' 
+    AND SALARY >= 100000;
